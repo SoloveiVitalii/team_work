@@ -4,6 +4,19 @@
   max-width: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #26272d;
+}
+
+
+/*Igor*/
 .wrapper_container {
   max-width: 1170px;
 }
@@ -32,17 +45,72 @@
   line-height: 26px;
   padding: 10px 0px;
 }
+/*Igor*/
 
+/*Khrystyna*/
+#protect {
+  padding-top: 240px;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #26272d;
+  font-size: 42px;
+  line-height: 1.23em;
+  font-family: 'Varela Round', sans-serif;
+}
+p {
+  color: #8c8f94;
+  line-height: 1.4em;
+  font-size: 20px;
+}
+.iphone {
+  margin-left: -247px;
+}
 
+.protect__tex_top, .confidence__text_top {
+  margin-top: 60px;
+}
 
+.protect__text_bot, .confidence__text_bot {
+  margin-top: 20px;
+}
 
+.protect__btn {
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-top: 67px;
+  transition: all .3s ease;
+}
 
+.protect__btn_left {
+  background-color: #267df4;
+  color: #fff;
+  width: 202px;
+  height: 42px;
+  margin-right: 16px;
+}
 
+.protect__btn_left:hover {
+  color: #267df4;
+  background: #fff;
+  border: 1px solid #267df4;
+}
 
+.protect__btn span {
+  display: inline-block;
+  margin-left: 40px;
+  font-size: 12px;
+}
 
-
-
-
-
-
+.protect__btn_right {
+  width: 140px;
+  height: 42px;
+  border: 1px solid #e9e9ea;
+}
+.arrow_icon {
+  padding: 0 0 4px;
+} 
+ /*Khrystyna*/
 
