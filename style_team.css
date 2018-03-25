@@ -45,38 +45,4 @@
 
 
 
-* {
-  margin: 0 auto;
-  box-sizing: border-box;
-  max-width: auto;
-}
-
-.wrapper_container {
-  max-width: 1170px;
-}
-
-.wrapper_container .row {
-  height: 672px;
-  padding-top: 125px;
-}
-
-.castle {
-  padding: 0 45px;
-}
-
-.castle h3 {
-  font-size: 26px;
-  font-family: 'Open Sans', sans-serif;
-  color: #303137;
-  line-height: 34px;
-  padding: 10px 0px;
-}
-
-.castle p {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  color: #9b9ea2;
-  line-height: 26px;
-  padding: 10px 0px;
-}
 
